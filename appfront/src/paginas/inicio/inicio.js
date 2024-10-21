@@ -1,7 +1,8 @@
 import React, { useEffect, useReducer } from 'react'
-import { Allproductos , getAllcategorys } from '../../services/comidaservice';
+import { Allproductos , getAllcategorys ,getAllBycategory } from '../../services/comidaservice';
 import Thumbnails from '../../componentes/Thumbnails/Thumbnails';
 import Categorias from '../../componentes/Categoria/categorias';
+import { useParams } from 'react-router-dom';
 
 // * VARIABLES FUNNCIONES
 const initialState = { comidas: [] , categorias:[]};
@@ -22,12 +23,13 @@ export default function Inicio() {
 // * VARIABLES FUNNCIONES
   const [state, dispatch] = useReducer(reducer, initialState);
   const { comidas , categorias } = state;
+  const { categoria } = useParams();
 
   useEffect( () => {
     getAllcategorys().then(categorias => dispatch({type:'CATE_CARGADA',payload: categorias}));
 
     Allproductos().then(comidas => dispatch({ type:'COMIDAS_CARGADA', payload: comidas}));
-  }, [] );
+  }, [categoria] );
 
 // * PARTE DE HTML/JS
   return (
