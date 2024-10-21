@@ -1,4 +1,5 @@
 import AppRoutes from "./AppRoutes";
+import Footer from "./componentes/Footer/Footer";
 import Menu from "./componentes/Menu/Menu";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Menu/>
       <AppRoutes/>
+      <Footer/>
     </>
     
   );
