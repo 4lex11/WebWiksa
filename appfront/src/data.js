@@ -76,7 +76,7 @@ export const productos = [
         price: 50,
         delivery_time: '50 min',
         delivery_price: 8.0,
-        imgUrl:'1Pollo.png'
+        imgUrl:'LomoSaltado.jpg'
       },
       {
         id:8,
@@ -87,7 +87,7 @@ export const productos = [
         price: 15,
         delivery_time: '50 min',
         delivery_price: 8.0,
-        imgUrl:'1Pollo.png'
+        imgUrl:'Salchipapa.jpg'
       },
       {
         id:9,
@@ -98,7 +98,7 @@ export const productos = [
         price: 30,
         delivery_time: '50 min',
         delivery_price: 8.0,
-        imgUrl:'1Pollo.png'
+        imgUrl:'Milanesa.jpg'
         
       },
       {
@@ -110,7 +110,7 @@ export const productos = [
         price: 30,
         delivery_time: '50 min',
         delivery_price: 8.0,
-        imgUrl:'1Pollo.png'
+        imgUrl:'Pizza.jpg'
       },
       {
         id:11,
@@ -121,7 +121,7 @@ export const productos = [
         price: 14.5,
         delivery_time: '50 min',
         delivery_price: 8.0,
-        imgUrl:'1Pollo.png'
+        imgUrl:'Hamburgesa.jpg'
       },
       {
         id:12,
@@ -132,7 +132,7 @@ export const productos = [
         price: 22.5,
         delivery_time: '50 min',
         delivery_price: 8.0,
-        imgUrl:'1Pollo.png'
+        imgUrl:'Curri.jpg'
       },
       {
         id:13,
@@ -143,7 +143,7 @@ export const productos = [
         price: 20,
         delivery_time: '50 min',
         delivery_price: 8.0,
-        imgUrl:'1Pollo.png'
+        imgUrl:'Sushi.jpg'
       },
       {
         id:14,
@@ -154,7 +154,7 @@ export const productos = [
         price: 5,
         delivery_time: '15 min',
         delivery_price: 2.0,
-        imgUrl:'1Pollo.png'
+        imgUrl:'Ajinomen.jpg'
       },
       {
         id:15,
@@ -165,7 +165,7 @@ export const productos = [
         price: 25,
         delivery_time: '15 min',
         delivery_price: 2.0,
-        imgUrl:'1Pollo.png'
+        imgUrl:'Chocoton.jpg'
       },
       {
         id:16,
@@ -176,7 +176,7 @@ export const productos = [
         price: 7,
         delivery_time: '15 min',
         delivery_price: 2.0,
-        imgUrl:'1Pollo.png'
+        imgUrl:'Colgate.jpg'
       },
       {
         id:17,
@@ -187,7 +187,7 @@ export const productos = [
         price: 10.0,
         delivery_time: '15 min',
         delivery_price: 2.5,
-        imgUrl:'1Pollo.png'
+        imgUrl:'Guarana.jpg'
       },
       {
         id:18,
@@ -198,7 +198,7 @@ export const productos = [
         price: 12,
         delivery_time: '15 min',
         delivery_price: 2.5,
-        imgUrl:'1Pollo.png'
+        imgUrl:'LecheGloria.jpg'
       },
       {
         id:19,
@@ -209,7 +209,7 @@ export const productos = [
         price: 15,
         delivery_time: '15 min',
         delivery_price: 2.5,
-        imgUrl:'1Pollo.png'
+        imgUrl:'PanBimbo.jp g'
       },
 ];
 
