@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import { getAllBycategory } from '../../services/comidaservice';
-
+import classes from './categoria.module.css'
 
 export default function CategoriaPage() {
 
@@ -14,10 +14,7 @@ export default function CategoriaPage() {
 
   return (
     <>
-      {categoria && 
-        <div className={classes.container}>
-
-        </div>}
+    A
     </>
   )
 }
