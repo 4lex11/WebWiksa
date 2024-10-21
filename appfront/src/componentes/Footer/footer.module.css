@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    background: #003049;
+    padding: 50px 30px 20px;
+    list-style-type: none;
+    list-style: none;
+}
+
+footer a{color: #fff;text-decoration: none; list-style: none;}
+
+.footer_col{padding: 0 2rem;}
+
+.pie{
+    padding: 0.5rem 0;
+    color: #fff;
+    background: #14213d;
+    text-align: center;
+}
