@@ -9,9 +9,9 @@ export default function AppRoutes() {
   return (
   <Routes>
     <Route path="/" element={ <Inicio/>} />
-    <Route path="/categoria/:name" element={CategoriaPage}/>
-    <Route path="/vendedor/:name" element={VendedorPage}/>
-    <Route path="/producto/:id" element={ProductoPage}/>
+    <Route path="/categoria/:name" element={<CategoriaPage/>}/>
+    <Route path="/vendedor/:name" element={<VendedorPage/>}/>
+    <Route path="/producto/:id" element={<ProductoPage/>}/>
   </Routes>
   );
 }
