@@ -56,3 +56,26 @@ header a:hover{ background: #fff; color: #e63946; cursor: pointer;}
     border-radius: 100rem;
     font-size: 0.9rem;
 }
+
+.buscardor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscardor input{
+    height: 2rem;
+    width: 15rem;
+    border: 1px solid whitesmoke;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.buscardor button{
+    height: 2rem;
+    width: 2.5rem;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
