@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import { getAllBycategory } from '../../services/comidaservice';
 
+
 export default function CategoriaPage() {
 
   const [categoria, setcategory] = useState({});
@@ -12,8 +13,11 @@ export default function CategoriaPage() {
   },[name]);
 
   return (
-    <div>
-      PAGCATEGIR
-    </div>
+    <>
+      {categoria && 
+        <div className={classes.container}>
+
+        </div>}
+    </>
   )
 }
